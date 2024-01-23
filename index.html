@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href ="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="main">
+        <div class="main__logo">ToDo App</div>
+        <div class="todo">
+            <form class="todo__form">
+                <div class="todo__logo">Add ToDo</div> 
+                <input class="todo__title" type="text" placeholder="Enter todo title">
+                <textarea class="todo__text" placeholder="Enter ToDo description"></textarea>
+                <button class="todo__button" type="submit">Submit</button>
+            </form>
+            <div class="todo__tasks">
+                <div class="todo__tasks-logo">Your ToDo items!</div>
+                <div class="todo__tasks-sub-logo">Sort by:</div>
+                <div class="todo__button-box">
+                    <button class="todo__button">By titles</button>
+                    <button class="todo__button">By dates</button>
+                    <button class="todo__button">Reset</button>
+                </div>
+                <div class="todo__result-box">
+                    <div class="block">
+                        <div class="sub_block">
+                            <label class="input" for="html">completed</label>
+                            <input class="completed" type="checkbox">
+                            <button class="block__btn">!</button>
+                            <button class="block__btn">x</button>
+                        </div>
+                        <div class="block__title">Test</div>
+                        <div class="block__text">Test</div>
+                        <div class="block__data">123</div>
+                    </div>
+                    <div class="block">
+                        <div class="sub_block">
+                            <label class="input" for="html">completed</label>
+                            <input class="completed" type="checkbox">
+                            <button class="block__btn">!</button>
+                            <button class="block__btn">x</button>
+                        </div>
+                        <div class="block__title">123</div>
+                        <div class="block__text">123</div>
+                        <div class="block__data">123</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
